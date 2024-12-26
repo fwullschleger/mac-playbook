@@ -45,6 +45,9 @@
     - import_tasks: tasks/sublime-text.yml
       when: configure_sublime
       tags: ['sublime-text']
+      
+    - import_tasks: tasks/dotnet.yml
+      tags: [ 'dotnet' ]
 
     - name: Run post-provision task files in a block.
       tags: ['post']

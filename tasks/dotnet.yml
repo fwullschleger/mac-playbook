@@ -1,0 +1,36 @@
+---
+- name: Download and install .NET SDK for each version
+  shell: |
+    curl -sSL https://dot.net/v1/dotnet-install.sh | bash /dev/stdin --channel {{ item }}
+  args:
+    executable: /bin/bash
+  loop: "{{ dotnet_versions }}"
+  register: install_results
+  ignore_errors: yes
+
+- name: Check if .NET SDK installation was successful for each version
+  debug:
+    msg: "Installation output for version {{ item.item }}: {{ item.stdout }}"
+  loop: "{{ install_results.results }}"
+  when: item.rc == 0
+
+- name: Fail if .NET SDK installation failed for any version
+  fail:
+    msg: "Failed to install .NET SDK for version {{ item.item }}"
+  loop: "{{ install_results.results }}"
+  when: item.rc != 0
+
+- name: Install dotnet-ef as a global tool
+  shell: /Users/fw/.dotnet/dotnet tool install --global dotnet-ef
+  register: ef_install_result
+  ignore_errors: yes
+
+- name: Check if dotnet-ef installation was successful
+  debug:
+    msg: "dotnet-ef installation output: {{ ef_install_result.stdout }}"
+  when: ef_install_result.rc == 0
+
+- name: Fail if dotnet-ef installation failed
+  fail:
+    msg: "Failed to install dotnet-ef"
+  when: ef_install_result.rc != 0
