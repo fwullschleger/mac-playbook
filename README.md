@@ -23,6 +23,7 @@ This playbook installs and configures most of the software I use on my Mac for w
   3. Clone or download this repository to your local drive.
   4. Run `ansible-galaxy install -r requirements.yml` inside this directory to install required Ansible roles.
   5. Set the `ansible_become_password` in `config.yml` the sudo password of the user the script is run against.
+     You can encrypt the password with ansible vault, like so: `ansible-vault encrypt_string 'secret'` 
   6. Run `ansible-playbook main.yml --ask-become-pass` inside this directory. Enter your password when prompted for the passwords.
      Or run `setup.sh`.
 
