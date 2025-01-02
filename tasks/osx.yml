@@ -1,8 +1,22 @@
 ---
-- name: Run osx.sh script as root
-  script: files/osx.sh
+- name: Ensure ~/tmp/ directory exists
+  file:
+    path: "{{ ansible_env.HOME }}/tmp"
+    state: directory
+    mode: '0755'
+
+- name: Download setup.sh script
+  get_url:
+    url: https://raw.githubusercontent.com/fwullschleger/dotfiles/refs/heads/main/.osx
+    dest: "{{ ansible_env.HOME }}/tmp/osx.sh"
+    mode: '0755'
+
+- name: Run setup.sh script as root
+  command: "sh {{ ansible_env.HOME }}/tmp/osx.sh"
   become: true
-  args:
-    executable: /bin/bash
-    chdir: /tmp/
-    creates: /tmp/example.txt
+  become_user: "{{ ansible_user }}"
+  
+#- name: Remove setup.sh script
+#  file:
+#    path: "{{ ansible_env.HOME }}/tmp/osx.sh"
+#    state: absent
