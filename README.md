@@ -4,7 +4,7 @@ This playbook installs and configures most of the software I use on my Mac for w
 
 > [!IMPORTANT]
 > I forked this repo from [Jeff Geerling](https://www.jeffgeerling.com/).
-> I modified/added:
+> I modified it to my specific needs:
 > - **Modified:** The Installation part
 > - **Added:** [config.yml](config.yml) which overrides the defaults with my own configuration
 > - **Added:** [setup.sh](setup.sh) with my ansible-playbook command and flags
