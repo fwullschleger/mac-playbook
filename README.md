@@ -1,7 +1,3 @@
-# Mac Setup Ansible Playbook
-
-This playbook installs and configures most of the software I use on my Mac for web and software development. Some things in macOS are slightly difficult to automate, so I still have a few manual installation steps.
-
 > [!IMPORTANT]
 > I forked this repo from [Jeff Geerling](https://www.jeffgeerling.com/).
 > I modified it to my specific needs:
@@ -10,6 +6,10 @@ This playbook installs and configures most of the software I use on my Mac for w
 > - **Added:** [setup.sh](setup.sh) with my ansible-playbook command and flags
 > - **Added:** own [dotfiles](https://github.com/fwullschleger/dotfiles)-task. Removed the dotfiles-role from Jeff.
 > - **Modified:** [osx](tasks/osx.yml) task which downloads my [.osx](https://github.com/fwullschleger/dotfiles/blob/main/.osx) from my [dotfiles](https://github.com/fwullschleger/dotfiles) and run it as sudo for the current `ansible_user`.
+
+# Mac Setup Ansible Playbook
+
+This playbook installs and configures most of the software I use on my Mac for web and software development. Some things in macOS are slightly difficult to automate, so I still have a few manual installation steps.
 
 ## Installation
 
