@@ -1,0 +1,71 @@
+---
+ansible_become_password: !vault |
+  $ANSIBLE_VAULT;1.1;AES256
+  37343566636436626537343634376437366163373964303231336362313937306163376235343437
+  6232393265633739393536343937623139623964336162650a393930303238316566663832623762
+  65333930343762396138323563373463376564636265343335313164383462353965633832656137
+  3739666563303639370a643634343034623866313035626632366464376435613931316130373337
+  3435
+
+configure_dotfiles: true
+configure_terminal: false
+configure_osx: true
+
+dotfiles_repo: https://github.com/fwullschleger/dotfiles
+dotfiles_repo_accept_hostkey: true
+dotfiles_repo_local_destination: ~/workspaces/dotfiles
+
+homebrew_taps:
+  - { name: cirruslabs/cli, url: 'https://github.com/cirruslabs/homebrew-cli' }
+  - { name: nikitabobko/tap, url: 'https://github.com/nikitabobko/homebrew-tap' }
+ 
+homebrew_installed_packages:
+  # - ansible # Installed via Pip.
+  - git
+  - vim
+  - stow
+  - curl
+  - starship
+  - zsh-autosuggestions
+  - openvpn
+  - node
+  - yarn
+  - cirruslabs/cli/tart
+
+homebrew_cask_apps:
+  - wezterm
+  - brave-browser
+  - chromium
+  - keepassxc
+  - logseq
+  - coteditor
+  - karabiner-elements
+  - aerospace
+  - homerow
+  - rectangle
+  - synology-drive
+  - google-drive
+  - docker
+  - jetbrains-toolbox
+  - rider
+  - webstorm
+  - shottr
+  - protonvpn
+  - espanso
+  - spotify
+  - whatsapp
+  - utm
+  - windows-app
+  - vnc-viewer
+  #- logi-options+
+  - gitkraken
+  - lens
+
+homebrew_uninstalled_packages:
+  - cowsay
+
+dotnet_versions:
+  - 9.0
+  - 8.0
+  - 7.0
+  - 6.0
