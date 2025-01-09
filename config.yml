@@ -24,9 +24,15 @@ homebrew_installed_packages:
   - git
   - vim
   - stow
-  - curl
   - starship
   - zsh-autosuggestions
+  - eza
+  - tree
+  - fzf
+  - fd
+  - bat
+  - curl
+  - wget
   - openvpn
   - node
   - yarn
@@ -39,6 +45,7 @@ homebrew_cask_apps:
   - keepassxc
   - logseq
   - coteditor
+  - iina
   - karabiner-elements
   - aerospace
   - homerow
@@ -49,6 +56,7 @@ homebrew_cask_apps:
   - jetbrains-toolbox
   - rider
   - webstorm
+  - cursor
   - shottr
   - protonvpn
   - espanso
