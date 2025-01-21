@@ -34,6 +34,7 @@ homebrew_installed_packages:
   - curl
   - wget
   - openvpn
+  - nushell
   - node
   - yarn
   - cirruslabs/cli/tart
@@ -57,6 +58,7 @@ homebrew_cask_apps:
   - rider
   - webstorm
   - cursor
+  - db-browser-for-sqlite
   - shottr
   - protonvpn
   - espanso
@@ -65,9 +67,10 @@ homebrew_cask_apps:
   - utm
   - windows-app
   - vnc-viewer
-  #- logi-options+
+  - logi-options-plus
   - gitkraken
   - lens
+  #- Archimate #https://www.archimatetool.com/donate/?download=/downloads/archi/5.4.3/Archi-Mac-Silicon-5.4.3.dmg
 
 homebrew_uninstalled_packages:
   - cowsay
