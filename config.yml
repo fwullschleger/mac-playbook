@@ -70,6 +70,7 @@ homebrew_cask_apps:
   - logi-options-plus
   - gitkraken
   - lens
+  - calibre
   #- Archimate #https://www.archimatetool.com/donate/?download=/downloads/archi/5.4.3/Archi-Mac-Silicon-5.4.3.dmg
 
 homebrew_uninstalled_packages:
