@@ -33,7 +33,6 @@ homebrew_installed_packages:
   - bat
   - curl
   - wget
-  - openvpn
   - nushell
   - node
   - yarn
@@ -72,6 +71,13 @@ homebrew_cask_apps:
   - lens
   - calibre
   - libreoffice
+  - pinta
+  - raspberry-pi-imager
+  - alt-tab
+  - tailscale
+  - wireshark
+  - zoom
+  - openvpn-connect
   #- Archimate #https://www.archimatetool.com/donate/?download=/downloads/archi/5.4.3/Archi-Mac-Silicon-5.4.3.dmg
 
 homebrew_uninstalled_packages:
