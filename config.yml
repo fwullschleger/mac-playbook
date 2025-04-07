@@ -74,10 +74,11 @@ homebrew_cask_apps:
   - pinta
   - raspberry-pi-imager
   - alt-tab
-  - tailscale
   - wireshark
   - zoom
   - openvpn-connect
+  - portfolioperformance
+  #- tailscale
   #- Archimate #https://www.archimatetool.com/donate/?download=/downloads/archi/5.4.3/Archi-Mac-Silicon-5.4.3.dmg
 
 homebrew_uninstalled_packages:
