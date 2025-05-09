@@ -48,6 +48,7 @@ homebrew_cask_apps:
   - iina
   - karabiner-elements
   - aerospace
+  - middleclick
   - homerow
   - rectangle
   - synology-drive
