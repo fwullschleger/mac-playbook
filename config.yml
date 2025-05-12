@@ -49,6 +49,7 @@ homebrew_cask_apps:
   - karabiner-elements
   - aerospace
   - middleclick
+  - alt-tab
   - homerow
   - rectangle
   - synology-drive
@@ -74,7 +75,6 @@ homebrew_cask_apps:
   - libreoffice
   - pinta
   - raspberry-pi-imager
-  - alt-tab
   - wireshark
   - zoom
   - openvpn-connect
