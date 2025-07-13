@@ -22,6 +22,7 @@ homebrew_taps:
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
   - git
+  - gh
   - vim
   - stow
   - starship
