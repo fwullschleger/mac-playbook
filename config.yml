@@ -16,7 +16,7 @@ dotfiles_repo_accept_hostkey: true
 dotfiles_repo_local_destination: ~/workspaces/dotfiles
 
 homebrew_taps:
-  - { name: cirruslabs/cli, url: 'https://github.com/cirruslabs/homebrew-cli' }
+#  - { name: cirruslabs/cli, url: 'https://github.com/cirruslabs/homebrew-cli' }
   - { name: nikitabobko/tap, url: 'https://github.com/nikitabobko/homebrew-tap' }
  
 homebrew_installed_packages:
@@ -39,7 +39,7 @@ homebrew_installed_packages:
   - nushell
   - node
   - yarn
-  - cirruslabs/cli/tart
+#  - cirruslabs/cli/tart
 
 homebrew_cask_apps:
   - wezterm
@@ -69,6 +69,7 @@ homebrew_cask_apps:
   - espanso
   - spotify
   - whatsapp
+  #- virtualbox # Is not running optimally and performant under Mac M-Chip series
   - utm
   - windows-app
   - vnc-viewer
