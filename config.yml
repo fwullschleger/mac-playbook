@@ -39,6 +39,7 @@ homebrew_installed_packages:
   - nushell
   - node
   - yarn
+  - sqlcipher
 #  - cirruslabs/cli/tart
 
 homebrew_cask_apps:
