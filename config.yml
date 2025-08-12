@@ -21,72 +21,72 @@ homebrew_taps:
  
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
-  - git
-  - gh
-  - vim
-  - stow
-  - starship
-  - zsh-autosuggestions
-  - eza
-  - tree
-  - fzf
   - atuin #If you choose to manually install Atuin rather than using the recommended installation script, merely installing the binary is not sufficient, you should also set up the shell plugin. -> https://docs.atuin.sh/guide/installation/
-  - fd
   - bat
-  - rename
+  #  - cirruslabs/cli/tart
   - curl
-  - wget
-  - nushell
+  - eza
+  - fd
+  - fzf
+  - gh
+  - git
   - node
-  - yarn
+  - nushell
+  - rename
   - sqlcipher
-#  - cirruslabs/cli/tart
+  - starship
+  - stow
+  - tree
+  - vim
+  - wget
+  - yarn
+  - zsh-autosuggestions
 
 homebrew_cask_apps:
-  - wezterm
-  - ghostty
-  - brave-browser
-  - chromium
-  - keepassxc
-  - logseq
-  - coteditor
-  - iina
-  - karabiner-elements
   - aerospace
-  - middleclick
   - alt-tab
-  - homerow
-  - rectangle
-  - synology-drive
-  - google-drive
-  - docker
-  - jetbrains-toolbox
-  - rider
-  - webstorm
+  #- Archimate #https://www.archimatetool.com/donate/?download=/downloads/archi/5.4.3/Archi-Mac-Silicon-5.4.3.dmg
+  - brave-browser
+  - calibre
+  - chromium
+  - coteditor
   - cursor
   - db-browser-for-sqlite
-  - shottr
-  - protonvpn
+  - docker
   - espanso
-  - spotify
-  - whatsapp
-  #- virtualbox # Is not running optimally and performant under Mac M-Chip series
-  - utm
-  - windows-app
-  - vnc-viewer
-  - logi-options-plus
+  - ghostty
   - gitkraken
+  - google-drive
+  - homerow
+  - iina
+  - jetbrains-toolbox
+  - karabiner-elements
+  - keepassxc
   - lens
-  - calibre
   - libreoffice
+  - logi-options-plus
+  - logseq
+  - middleclick
+  - openvpn-connect
   - pinta
+  - portfolioperformance
+  - protonvpn
   - raspberry-pi-imager
+  - rectangle
+  - rider
+  - shottr
+  - spotify
+  - synology-drive
+  #- tailscale
+  - utm
+  #- virtualbox # Is not running optimally and performant under Mac M-Chip series
+  - vnc-viewer
+  - webstorm
+  - wezterm
+  - whatsapp
+  - windows-app
   - wireshark
   - zoom
-  - openvpn-connect
-  - portfolioperformance
-  #- tailscale
-  #- Archimate #https://www.archimatetool.com/donate/?download=/downloads/archi/5.4.3/Archi-Mac-Silicon-5.4.3.dmg
 
 homebrew_uninstalled_packages:
   - cowsay
