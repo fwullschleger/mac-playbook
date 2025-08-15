@@ -36,6 +36,7 @@ homebrew_installed_packages:
   - sqlcipher
   - starship
   - stow
+  - tmux
   - tree
   - vim
   - wget
