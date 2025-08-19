@@ -30,8 +30,10 @@ homebrew_installed_packages:
   - fzf
   - gh
   - git
+  - graphviz # dependency of schemaspy
   - node
   - nushell
+  - openjdk # dependency of schemaspy
   - rename
   - sqlcipher
   - starship
