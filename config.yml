@@ -43,6 +43,7 @@ homebrew_installed_packages:
   - vim
   - wget
   - yarn
+  - zoxide
   - zsh-autosuggestions
 
 homebrew_cask_apps:
