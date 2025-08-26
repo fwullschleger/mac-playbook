@@ -23,6 +23,7 @@ homebrew_installed_packages:
   # - ansible # Installed via Pip.
   - atuin #If you choose to manually install Atuin rather than using the recommended installation script, merely installing the binary is not sufficient, you should also set up the shell plugin. -> https://docs.atuin.sh/guide/installation/
   - bat
+  - cheat
   #  - cirruslabs/cli/tart
   - curl
   - eza
@@ -35,6 +36,7 @@ homebrew_installed_packages:
   - nushell
   - openjdk # dependency of schemaspy
   - rename
+  - ripgrep
   - sqlcipher
   - starship
   - stow
