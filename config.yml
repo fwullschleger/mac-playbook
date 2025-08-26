@@ -31,6 +31,7 @@ homebrew_installed_packages:
   - fzf
   - gh
   - git
+  - gradle@8
   - graphviz # dependency of schemaspy
   - node
   - nushell
