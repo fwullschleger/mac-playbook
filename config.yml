@@ -85,7 +85,6 @@ homebrew_cask_apps:
   - spotify
   - synology-drive
   #- tailscale
-  - textmate
   - utm
   #- virtualbox # Is not running optimally and performant under Mac M-Chip series
   - vnc-viewer
