@@ -62,7 +62,6 @@ homebrew_cask_apps:
   - docker
   - espanso
   - ghostty
-  - gitkraken
   - google-drive
   - homerow
   - iina
@@ -92,7 +91,6 @@ homebrew_cask_apps:
   - webstorm
   - wezterm
   - whatsapp
-  - windows-app
   - wireshark
   - zoom
 
