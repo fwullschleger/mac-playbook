@@ -78,6 +78,7 @@ homebrew_cask_apps:
   - portfolioperformance
   - powershell
   - protonvpn
+  - qbittorrent
   - raspberry-pi-imager
   - rectangle
   - rider
@@ -87,7 +88,9 @@ homebrew_cask_apps:
   #- tailscale
   - utm
   #- virtualbox # Is not running optimally and performant under Mac M-Chip series
+  - vlc
   - vnc-viewer
+  - warp
   - webstorm
   - wezterm
   - whatsapp
