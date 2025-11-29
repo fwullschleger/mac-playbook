@@ -86,6 +86,7 @@ homebrew_cask_apps:
   - shottr
   - spotify
   - synology-drive
+  - tella
   #- tailscale
   - utm
   #- virtualbox # Is not running optimally and performant under Mac M-Chip series
