@@ -73,6 +73,7 @@ homebrew_cask_apps:
   - libreoffice
   - logi-options-plus
   - logseq
+  - macwhisper
   - middleclick
   - openvpn-connect
   - pinta
