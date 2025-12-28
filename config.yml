@@ -53,6 +53,8 @@ homebrew_installed_packages:
   - zsh-autosuggestions
 
 homebrew_cask_apps:
+  - 1password
+  - 1password-cli
   - aerospace
   - alt-tab
   #- Archimate #https://www.archimatetool.com/donate/?download=/downloads/archi/5.4.3/Archi-Mac-Silicon-5.4.3.dmg
