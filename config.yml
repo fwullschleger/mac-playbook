@@ -59,7 +59,6 @@ homebrew_cask_apps:
   - bbedit
   - brave-browser
   - calibre
-  - chromium
   - cursor
   - db-browser-for-sqlite
   - docker
@@ -91,6 +90,7 @@ homebrew_cask_apps:
   - synology-drive
   - tella
   #- tailscale
+  - ungoogled-chromium
   - utm
   #- virtualbox # Is not running optimally and performant under Mac M-Chip series
   - vlc
@@ -104,6 +104,7 @@ homebrew_cask_apps:
 
 homebrew_uninstalled_packages:
   - cowsay
+  - chromium
 
 dotnet_versions:
   - 9.0
