@@ -98,7 +98,6 @@ homebrew_cask_apps:
   #- virtualbox # Is not running optimally and performant under Mac M-Chip series
   - vlc
   - vnc-viewer
-  - warp
   - webstorm
   - wezterm
   - whatsapp
@@ -108,6 +107,7 @@ homebrew_cask_apps:
 homebrew_uninstalled_packages:
   - cowsay
   - chromium
+  - warp
 
 dotnet_versions:
   - 9.0
