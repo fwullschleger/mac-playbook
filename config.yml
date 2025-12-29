@@ -27,6 +27,7 @@ homebrew_installed_packages:
   - cheat
   #  - cirruslabs/cli/tart
   - curl
+  - docker
   - eza
   - fd
   - fzf
@@ -63,7 +64,7 @@ homebrew_cask_apps:
   - calibre
   - cursor
   - db-browser-for-sqlite
-  - docker
+  - docker-desktop
   - espanso
   - ghostty
   - google-drive
