@@ -68,6 +68,7 @@ homebrew_cask_apps:
   - espanso
   - ghostty
   - google-drive
+  - hammerspoon
   - iina
   - jetbrains-toolbox
   - karabiner-elements
