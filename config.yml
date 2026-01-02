@@ -85,6 +85,7 @@ homebrew_cask_apps:
   - powershell
   - protonvpn
   - qbittorrent
+  - radiola
   - raspberry-pi-imager
   - rectangle
   - rider
