@@ -68,7 +68,6 @@ homebrew_cask_apps:
   - espanso
   - ghostty
   - google-drive
-  - homerow
   - iina
   - jetbrains-toolbox
   - karabiner-elements
@@ -87,7 +86,6 @@ homebrew_cask_apps:
   - qbittorrent
   - radiola
   - raspberry-pi-imager
-  - rectangle
   - rider
   - shottr
   - spotify
@@ -106,8 +104,10 @@ homebrew_cask_apps:
   - zoom
 
 homebrew_uninstalled_packages:
-  - cowsay
   - chromium
+  - cowsay
+  - homerow
+  - rectangle
   - warp
 
 dotnet_versions:
