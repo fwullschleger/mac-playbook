@@ -62,6 +62,7 @@ homebrew_cask_apps:
   - bbedit
   - brave-browser
   - calibre
+  - claude
   - claude-code
   - cursor
   - db-browser-for-sqlite
