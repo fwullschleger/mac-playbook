@@ -73,6 +73,7 @@ homebrew_cask_apps:
   - hammerspoon
   - iina
   - jetbrains-toolbox
+  - jordanbaird-ice
   - karabiner-elements
   - keepassxc
   - lens
