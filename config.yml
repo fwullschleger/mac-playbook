@@ -82,6 +82,7 @@ homebrew_cask_apps:
   - logi-options-plus
   - logseq
   - macwhisper
+  - microsoft-teams
   - middleclick
   - ollama-app
   - openvpn-connect
