@@ -64,6 +64,8 @@ homebrew_cask_apps:
   - calibre
   - claude
   - claude-code
+  - codex
+  - codex-app
   - cursor
   - db-browser-for-sqlite
   - docker-desktop
