@@ -68,6 +68,7 @@ homebrew_cask_apps:
   - db-browser-for-sqlite
   - docker-desktop
   - espanso
+  - gcloud-cli
   - ghostty
   - google-drive
   - hammerspoon
