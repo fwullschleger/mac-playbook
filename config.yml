@@ -37,6 +37,7 @@ homebrew_installed_packages:
   - graphite
   - graphviz # dependency of schemaspy
   - lazygit
+  - mmv
   - node
   - nushell
   - openjdk # dependency of schemaspy
