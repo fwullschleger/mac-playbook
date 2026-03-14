@@ -36,6 +36,7 @@ homebrew_installed_packages:
   - gradle@8
   - graphite
   - graphviz # dependency of schemaspy
+  - lazygit
   - node
   - nushell
   - openjdk # dependency of schemaspy
