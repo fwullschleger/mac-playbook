@@ -69,6 +69,7 @@ homebrew_cask_apps:
   - codex
   - codex-app
   - cursor
+  - daisydisk
   - db-browser-for-sqlite
   - docker-desktop
   - espanso
@@ -89,7 +90,7 @@ homebrew_cask_apps:
   - macwhisper
   - microsoft-teams
   - middleclick
-  - ollama-app
+#  - ollama-app
   - openvpn-connect
   - pinta
   - portfolioperformance
