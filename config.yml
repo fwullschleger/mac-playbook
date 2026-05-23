@@ -19,6 +19,8 @@ homebrew_taps:
 #  - { name: cirruslabs/cli, url: 'https://github.com/cirruslabs/homebrew-cli' }
   - { name: nikitabobko/tap, url: 'https://github.com/nikitabobko/homebrew-tap' }
   - { name: withgraphite/tap, url: 'https://github.com/withgraphite/homebrew-tap' }
+  - { name: xykong/tap, url: 'https://github.com/xykong/homebrew-tap' }
+  - { name: typewhisper/tap, url: 'https://github.com/typewhisper/homebrew-tap' }
  
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
@@ -51,6 +53,7 @@ homebrew_installed_packages:
   - tree
   - vim
   - wget
+  - worktrunk
   - yarn
   - zoxide
   - zsh-autosuggestions
@@ -64,7 +67,6 @@ homebrew_cask_apps:
   - bbedit
   - brave-browser
   - calibre
-  - claude
   - claude-code
   - codex
   - codex-app
@@ -72,7 +74,10 @@ homebrew_cask_apps:
   - daisydisk
   - db-browser-for-sqlite
   - docker-desktop
+  - dockdoor
   - espanso
+  - flux-markdown
+  - garmin-express
   - gcloud-cli
   - ghostty
   - google-drive
@@ -105,6 +110,7 @@ homebrew_cask_apps:
   - synology-drive
   #- tailscale
   - tella
+  - typewhisper
   - ungoogled-chromium
   - utm
   #- virtualbox # Is not running optimally and performant under Mac M-Chip series
@@ -122,6 +128,7 @@ homebrew_uninstalled_packages:
   - homerow
   - rectangle
   - warp
+  - antinote
 
 dotnet_versions:
   - 9.0
