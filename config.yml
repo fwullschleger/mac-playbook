@@ -88,7 +88,6 @@ homebrew_cask_apps:
   - hammerspoon
   - iina
   - jetbrains-toolbox
-  - jordanbaird-ice
   - karabiner-elements
   - keepassxc
   - kid3
@@ -135,6 +134,7 @@ homebrew_uninstalled_packages:
   - warp
   - antinote
   - scratch
+  - jordanbaird-ice
 
 dotnet_versions:
   - 9.0
