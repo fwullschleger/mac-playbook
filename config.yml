@@ -16,16 +16,19 @@ dotfiles_repo_accept_hostkey: true
 dotfiles_repo_local_destination: ~/workspaces/dotfiles
 
 homebrew_taps:
-#  - { name: cirruslabs/cli, url: 'https://github.com/cirruslabs/homebrew-cli' }
-  - { name: nikitabobko/tap, url: 'https://github.com/nikitabobko/homebrew-tap' }
-  - { name: withgraphite/tap, url: 'https://github.com/withgraphite/homebrew-tap' }
+#  - { name: cirruslabs/cli, url: 'https://github.com/cirruslabs/homebrew-cli' } # for tart
+  - { name: nikitabobko/tap, url: 'https://github.com/nikitabobko/homebrew-tap' } # for aerospace
+  - { name: withgraphite/tap, url: 'https://github.com/withgraphite/homebrew-tap' } #for graphite
   - { name: xykong/tap, url: 'https://github.com/xykong/homebrew-tap' }
   - { name: typewhisper/tap, url: 'https://github.com/typewhisper/homebrew-tap' }
+  - { name: erictli/tap, url: 'https://github.com/erictli/homebrew-tap' } # for scratch
+  - { name: danerwilliams/tap, url: 'https://github.com/danerwilliams/homebrew-tap' } # for charcoal
  
 homebrew_installed_packages:
-  # - ansible # Installed via Pip.
+  - ansible # installed via Homebrew (bootstrap prerequisite)
   - atuin #If you choose to manually install Atuin rather than using the recommended installation script, merely installing the binary is not sufficient, you should also set up the shell plugin. -> https://docs.atuin.sh/guide/installation/
   - bat
+  # - charcoal # from danerwilliams/tap
   - cheat
   #  - cirruslabs/cli/tart
   - curl
@@ -67,7 +70,7 @@ homebrew_cask_apps:
   - bbedit
   - brave-browser
   - calibre
-  - claude-code
+  - claude-code@latest
   - codex
   - codex-app
   - cursor
@@ -95,6 +98,7 @@ homebrew_cask_apps:
   - macwhisper
   - microsoft-teams
   - middleclick
+  - obsidian
 #  - ollama-app
   - openvpn-connect
   - pinta
@@ -105,6 +109,7 @@ homebrew_cask_apps:
   - radiola
   - raspberry-pi-imager
   - rider
+  - scratch
   - shottr
   - spotify
   - synology-drive
