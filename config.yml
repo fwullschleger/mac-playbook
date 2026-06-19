@@ -78,6 +78,7 @@ homebrew_cask_apps:
   - db-browser-for-sqlite
   - docker-desktop
   - dockdoor
+  - erictli/tap/scratch
   - espanso
   - flux-markdown
   - garmin-express
