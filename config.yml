@@ -109,7 +109,6 @@ homebrew_cask_apps:
   - radiola
   - raspberry-pi-imager
   - rider
-  - scratch
   - shottr
   - spotify
   - synology-drive
@@ -134,6 +133,7 @@ homebrew_uninstalled_packages:
   - rectangle
   - warp
   - antinote
+  - scratch
 
 dotnet_versions:
   - 9.0
