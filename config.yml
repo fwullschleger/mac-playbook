@@ -67,18 +67,13 @@ homebrew_cask_apps:
   - aerospace
   - alt-tab
   #- Archimate #https://www.archimatetool.com/donate/?download=/downloads/archi/5.4.3/Archi-Mac-Silicon-5.4.3.dmg
-  - bbedit
   - brave-browser
   - calibre
   - claude-code@latest
-  - codex
-  - codex-app
   - cursor
   - daisydisk
   - db-browser-for-sqlite
   - docker-desktop
-  - dockdoor
-  - erictli/tap/scratch
   - espanso
   - flux-markdown
   - garmin-express
@@ -99,7 +94,6 @@ homebrew_cask_apps:
   - microsoft-teams
   - middleclick
   - obsidian
-#  - ollama-app
   - openvpn-connect
   - pinta
   - portfolioperformance
@@ -111,30 +105,46 @@ homebrew_cask_apps:
   - rider
   - shottr
   - spotify
+  - sublime-text
   - synology-drive
   #- tailscale
   - tella
+  - textmate
   - typewhisper
   - ungoogled-chromium
   - utm
-  #- virtualbox # Is not running optimally and performant under Mac M-Chip series
   - vlc
   - vnc-viewer
   - webstorm
   - wezterm
   - whatsapp
   - wireshark
+  - zennotes/tap/zennotes
   - zoom
 
 homebrew_uninstalled_packages:
+  - antinote
+  - bbedit
+  - boop
   - chromium
   - cowsay
+  - devknife
+  - devtoys
+  - dockdoor
+  - erictli/tap/scratch
   - homerow
-  - rectangle
-  - warp
-  - antinote
-  - scratch
   - jordanbaird-ice
+  - json-viewer
+  - macvim-app
+  - ollama-app
+  - rectangle
+  - scratch
+  - tomatobar
+  - virtualbox # Is not running optimally and performant under Mac M-Chip series
+  - warp
+  - codex
+  - codex-app
+  - chatgpt
 
 dotnet_versions:
   - 9.0
