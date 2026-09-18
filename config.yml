@@ -48,6 +48,7 @@ homebrew_installed_packages:
   - openjdk # dependency of schemaspy
   - rename
   - ripgrep
+  - shellcheck
   - sqlcipher
   - starship
   - stow
