@@ -108,6 +108,7 @@ homebrew_cask_apps:
   - spotify
   - sublime-text
   - synology-drive
+  - t3-code
   #- tailscale
   - tella
   - textmate
