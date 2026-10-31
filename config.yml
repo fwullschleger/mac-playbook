@@ -46,6 +46,7 @@ homebrew_installed_packages:
   - node
   - nushell
   - openjdk
+  - python@3.13 # dependency of gcloud-cli
   - rename
   - ripgrep
   - shellcheck
