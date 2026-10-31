@@ -40,12 +40,12 @@ homebrew_installed_packages:
   - git
   - gradle@8
   - graphite
-  - graphviz # dependency of schemaspy
+  - graphviz
   - lazygit
   - mmv
   - node
   - nushell
-  - openjdk # dependency of schemaspy
+  - openjdk
   - rename
   - ripgrep
   - shellcheck
@@ -71,7 +71,6 @@ homebrew_cask_apps:
   - brave-browser
   - calibre
   - claude-code@latest
-  - cursor
   - daisydisk
   - db-browser-for-sqlite
   - docker-desktop
@@ -87,7 +86,6 @@ homebrew_cask_apps:
   - karabiner-elements
   - keepassxc
   - kid3
-  - lens
   - libreoffice
   - logi-options-plus
   - logseq
@@ -106,7 +104,6 @@ homebrew_cask_apps:
   - rider
   - shottr
   - spotify
-  - sublime-text
   - synology-drive
   - t3-code
   #- tailscale
@@ -118,10 +115,8 @@ homebrew_cask_apps:
   - vlc
   - vnc-viewer
   - webstorm
-  - wezterm
   - whatsapp
   - wireshark
-  - zennotes/tap/zennotes
   - zoom
 
 homebrew_uninstalled_packages:
@@ -147,6 +142,11 @@ homebrew_uninstalled_packages:
   - codex
   - codex-app
   - chatgpt
+  - lens
+  - cursor
+  - sublime-text
+  - wezterm
+  - zennotes/tap/zennotes
 
 dotnet_versions:
   - 9.0
