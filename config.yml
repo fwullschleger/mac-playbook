@@ -21,7 +21,6 @@ homebrew_taps:
   - { name: withgraphite/tap, url: 'https://github.com/withgraphite/homebrew-tap' } #for graphite
   - { name: xykong/tap, url: 'https://github.com/xykong/homebrew-tap' }
   - { name: typewhisper/tap, url: 'https://github.com/typewhisper/homebrew-tap' }
-  - { name: erictli/tap, url: 'https://github.com/erictli/homebrew-tap' } # for scratch
   - { name: danerwilliams/tap, url: 'https://github.com/danerwilliams/homebrew-tap' } # for charcoal
  
 homebrew_installed_packages:
@@ -133,7 +132,6 @@ homebrew_uninstalled_packages:
   - devknife
   - devtoys
   - dockdoor
-  - erictli/tap/scratch
   - homerow
   - jordanbaird-ice
   - json-viewer
@@ -141,7 +139,6 @@ homebrew_uninstalled_packages:
   - macvim-app
   - ollama-app
   - rectangle
-  - scratch
   - sublime-text
   - tomatobar
   - virtualbox # Is not running optimally and performant under Mac M-Chip series
