@@ -19,7 +19,7 @@ homebrew_taps:
 #  - { name: cirruslabs/cli, url: 'https://github.com/cirruslabs/homebrew-cli' } # for tart
   - { name: nikitabobko/tap, url: 'https://github.com/nikitabobko/homebrew-tap' } # for aerospace
   - { name: withgraphite/tap, url: 'https://github.com/withgraphite/homebrew-tap' } #for graphite
-  - { name: xykong/tap, url: 'https://github.com/xykong/homebrew-tap' }
+  - { name: xykong/tap, url: 'https://github.com/xykong/homebrew-tap' } # for flux-markdown
   - { name: typewhisper/tap, url: 'https://github.com/typewhisper/homebrew-tap' }
   - { name: danerwilliams/tap, url: 'https://github.com/danerwilliams/homebrew-tap' } # for charcoal
  
