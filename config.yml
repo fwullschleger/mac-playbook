@@ -29,6 +29,7 @@ homebrew_installed_packages:
   - bat
   # - charcoal # from danerwilliams/tap
   - cheat
+  - claude
   #  - cirruslabs/cli/tart
   - curl
   - docker
